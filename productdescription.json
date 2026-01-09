@@ -1,0 +1,883 @@
+[
+  {
+    "name": "CARMELA Handmade Statement Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Shoulder Bag",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Choco Brown",
+      "Washed Brown",
+      "Jet Black",
+      "Natural"
+    ],
+    "size": "10.2\" x 3\" x 7\"",
+    "description": "Introducing the CARMELA handmade statement bag from the latest Speranza Beads Collection! This handmade shoulder bag is not just an accessory; it's a statement piece that embodies both elegance and creativity. Whether you're heading to a casual brunch, a night out with friends, or a special event, this statement bag is the perfect companion. Its unique style adds a touch of flair to any outfit.",
+    "materialsAndFeatures": "Wooden beads, magnetic snap button enclosure." 
+  },
+  {
+    "name": "MARINA Handmade Macrame Net Tote Bag with Lining",
+    "category": "Premium Straw Bag",
+    "bagType": "Tote",
+    "price": "₱4,800.00",
+    "availableColors": [
+      "Jet Black",
+      "Gold",
+      "White",
+      "Chocolate Brown"
+    ],
+    "size": "21\" x 4\" x 17\"",
+    "description": "The MARINA Handmade Macrame Net Tote Bag features a lightweight and spacious interior. This is your ideal companion for beach trips, grocery runs, or daily use. The name reflects the sea inspired effortless elegance it brings to your outfit.",
+    "materialsAndFeatures": "Soft straw rope, inner cloth lining, pocket, magnetic snap button enclosure." 
+  },
+  {
+    "name": "TARA Macrame Handbag with Natural Bamboo Handles",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag / Shoulder",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Jet Black",
+      "Gold"
+    ],
+    "size": "16\" x 3\" x 12\"",
+    "description": "Elevate your style with TARA! Whether you wear it as a shoulder bag or carry it by hand, this unique and versatile accessory pairs well with any look. Handmade by skilled local artisans. Limited stock may apply.",
+    "materialsAndFeatures": "Soft straw rope, natural bamboo handle, inner cloth lining, pocket, magnetic snap closure." 
+  },
+  {
+    "name": "PALOMA LIMITED Nito-Vine Handles Handbag",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag",
+    "price": "₱2,500.00",
+    "availableColors": [
+      "Black with Red/White",
+      "Black/Gold/Black"
+    ],
+    "size": "15\" x 6\" x 12\"",
+    "description": "The Paloma Limited Nito-Vine Handles Handbag is versatile, perfect for smart casual or beachwear, with a spacious interior for daily essentials. The handles are made of a nito vine plant that gives the handbag a natural beauty.",
+    "materialsAndFeatures": "Soft straw rope, nito vine handles, inner cloth lining, pocket, zip-top closure." 
+  },
+  {
+    "name": "PICCOLA Handbag with Natural Bamboo Handle",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag / Shoulder",
+    "price": "₱4,500.00",
+    "availableColors": [
+      "Gold",
+      "Jet Black",
+      "White",
+      "Grey",
+      "Chocolate Brown",
+      "Royal Blue (2 straps)"
+    ],
+    "size": "14\" x 3\" x 8\"",
+    "description": "The Piccola Handbag features natural bamboo handles adding a charming touch to any outfit. Includes a detachable sling making it versatile for shoulder or hand carry. Spacious enough for essentials.",
+    "materialsAndFeatures": "Soft straw rope, bamboo handle, inner cloth lining, pocket, zip-top closure." 
+  },
+  {
+    "name": "YARA Macrame Travel Sling Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Sling",
+    "price": "₱3,700.00",
+    "availableColors": [
+      "White",
+      "Jet Black"
+    ],
+    "size": "12\" x 2\" x 10.5\"",
+    "description": "The YARA crossbody bag was designed as a hands-free bag with enough space to fit your essentials including preventive necessities. A favorite bag when on the go.",
+    "materialsAndFeatures": "Soft straw rope, inner cloth lining, pocket, zip-top closure with detachable sling." 
+  },
+  {
+    "name": "RAYA Convertible Beaded Clutch/Sling/Shoulder Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Convertible Clutch / Sling / Shoulder",
+    "price": "₱6,500.00",
+    "availableColors": [
+      "Black w/ Natural | Crisscross",
+      "Washed Brown w/ Natural | Crisscross",
+      "Natural w/ Red | Geometric",
+      "Choco Brown w/ Natural | Diamonds",
+      "Black w/ Natural | Maze 1.0",
+      "Washed Brown w/ Natural | Maze 2.0",
+      "Black w/ Natural | Maze 2.0",
+      "Choco Brown w/ Natural | Maze 2.0",
+      "Natural w/ Black/Choco brown | Band",
+      "Washed Blue w/ Natural/Orange | Sport",
+      "Natural w/ Black/Washed Brown | Band",
+      "Washed Blue w/ Natural/Green | Sport"
+    ],
+    "size": "10\" x 6.3\" x 2.5\"",
+    "description": "Meet RAYA Convertible Beaded Clutch/Sling/Shoulder bag, from the Speranza Beads Collection! Includes 2 detachable straps allowing conversion from clutch to crossbody or shoulder bag. Limited edition complex geometric designs available.",
+    "materialsAndFeatures": "Wooden beads, interior lining, side pocket, magnetic snap button enclosure, 2 straps." 
+  },
+  {
+    "name": "STELLA Beaded \"Pusô\" Event Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Event Handbag",
+    "price": "₱5,200.00",
+    "availableColors": [
+      "Jet Black",
+      "Washed Blue",
+      "Washed Brown",
+      "Natural"
+    ],
+    "size": "7\" x 10\" x 9\"",
+    "description": "Make a lasting impression with STELLA, a pyramid-shaped beaded event bag from the Speranza Beads Collection. A statement piece ideal for weddings or formal events.",
+    "materialsAndFeatures": "Wooden beads, interior lining, zipper enclosure." 
+  },
+  {
+    "name": "CALLA Beaded Shoulder Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Shoulder / Sling",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Choco Brown with Washed Brown",
+      "Washed Brown with Washed Blue",
+      "Black with Natural",
+      "Washed Brown with Natural"
+    ],
+    "size": "unspecified",
+    "description": "Introducing the CALLA Beaded Shoulder Bag from Speranza Beads Collection! Handmade wooden bead bag with roomy space for essentials and a comfy shoulder strap.",
+    "materialsAndFeatures": "Wooden beads, interior lining, side pocket, magnetic snap button enclosure." 
+  },
+  
+  {
+    "name": "ADORA Beaded Pearl Heart Bag Charms and Keychains",
+    "category": "Wooden Beads Accessory",
+    "bagType": "Charm / Keychain",
+    "price": "₱650.00",
+    "availableColors": [],
+    "size": "Small accessory",
+    "description": "ADORA Beaded Pearl Heart Bag Charms and Keychains are charming wooden bead accessories that add personality to any bag or set of keys. Perfect for gifting or styling your favorite handbag.",
+    "materialsAndFeatures": "Wooden beads with keychain hook attachment." 
+  },
+  {
+    "name": "AINA Phone Purse",
+    "category": "Wooden Beads Accessory",
+    "bagType": "Phone Purse / Sling Accessory",
+    "price": "₱2,700.00",
+    "availableColors": [],
+    "size": "Phone sized pouch",
+    "description": "AINA Phone Purse from Speranza Beads Collection adds practical style to your everyday look. Designed to carry your phone and essentials with a beaded strap for hands-free convenience.",
+    "materialsAndFeatures": "Wooden beads, interior lining, phone compartment." 
+  },
+  {
+    "name": "ALESSANDRA Beaded Tote Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Tote Bag",
+    "price": "₱6,500.00",
+    "availableColors": [
+      "Washed Brown w/ Black/Natural",
+      "Black w/ Washed Brown/Natural",
+      "Choco Brown w/ Washed Brown/Natural",
+      "Washed Blue w/ Washed Brown/Natural"
+    ],
+    "size": "12\" x 1.5\" x 13\"",
+    "description": "ALESSANDRA Beaded Tote Bag is a spacious handcrafted beaded tote perfect for daily essentials. Its expandable design and neutral color accents make it a versatile companion for travel or casual use. Spacious interior with side pocket and magnetic snap closure. :contentReference[oaicite:2]{index=2}",
+    "materialsAndFeatures": "Wooden beads, interior lining with side pocket, magnetic snap button closure." 
+  },
+  {
+    "name": "AMARA Beaded Handbag with Detachable Sling",
+    "category": "Wooden Beads Collection",
+    "bagType": "Handbag / Shoulder",
+    "price": "₱4,200.00",
+    "availableColors": [
+      "Natural",
+      "Washed Brown w/ Choco Brown",
+      "Washed Blue w/ Choco Brown",
+      "Natural w/ Choco Brown"
+    ],
+    "size": "9\" x 2.5\" x 5.1\"",
+    "description": "Discover the AMARA Beaded Handbag with Detachable Sling from the Speranza Beads Collection! With its detachable sling, easily transition from shoulder bag to stylish handbag. Features intricate beadwork that elevates any outfit. :contentReference[oaicite:3]{index=3}",
+    "materialsAndFeatures": "Wooden beads, interior lining, zip-top closure, detachable sling." 
+  },
+  {
+    "name": "AMARISA Beaded Bag for Everyday",
+    "category": "Wooden Beads Collection",
+    "bagType": "Everyday Beaded Bag",
+    "price": "₱5,000.00",
+    "availableColors": [],
+    "size": "Medium bag size",
+    "description": "The AMARISA Beaded Bag for Everyday is a stylish and functional accessory with handmade beadwork suited for daily use. Combines practicality with artisanal beauty from Speranza’s bead collection.",
+    "materialsAndFeatures": "Wooden beads, interior lining, pocket, magnetic snap enclosure." 
+  },
+  {
+    "name": "AVEYDA Crocheted Clutch/Wristlet/Sling",
+    "category": "Premium Straw Bag",
+    "bagType": "Convertible Clutch / Sling / Wristlet",
+    "price": "₱1,400.00",
+    "availableColors": [],
+    "size": "One size",
+    "description": "AVEYDA is a versatile crocheted straw accessory from Speranza. Wear it as a clutch, wristlet, or sling using its detachable straps. A chic everyday essential to complement casual and dressy outfits. :contentReference[oaicite:4]{index=4}",
+    "materialsAndFeatures": "Hand-crocheted straw rope, interior lining, multiple straps." 
+  },
+  {
+    "name": "MOANA Beaded \"Tsinelas\" Coin Purse/Bag Charm",
+    "category": "Wooden Beads Accessory",
+    "bagType": "Coin Purse / Charm",
+    "price": "₱690.00",
+    "availableColors": [
+      "Black w/ Natural",
+      "Choco Brown w/ Washed Brown",
+      "Green w/ Natural",
+      "Green w/ Yellow",
+      "Washed Brown w/ Natural",
+      "Yellow w/ Natural"
+    ],
+    "size": "2.5\" x 1\" x 4.5\"",
+    "description": "MOANA Beaded \"Tsinelas\" Coin Purse adds a playful and functional touch to your bag or keychain. Handy for coins, cards, or small essentials and perfect for gift ideas or beach-ready accessories. :contentReference[oaicite:5]{index=5}",
+    "materialsAndFeatures": "Wooden beads, zippered enclosure, keychain hook included." 
+  },
+  {
+    "name": "BIANCA Versatile Beaded Mini-Clutch/Wallet/Sling",
+    "category": "Wooden Beads Collection",
+    "bagType": "Mini Clutch / Wallet / Sling",
+    "price": "₱3,900.00",
+    "availableColors": [
+      "Chocolate Brown",
+      "Washed Brown",
+      "Jet Black",
+      "Black/Choco Brown",
+      "Natural"
+    ],
+    "size": "Small: 8\" x 1\" x 4\" | Big: 7\" x 2\" x 5\"",
+    "description": "BIANCA Versatile Beaded Mini-Clutch/Wallet/Sling from Speranza Beads Collection transitions easily between a clutch, wallet, or crossbody bag with its detachable sling, perfect for versatile styling. :contentReference[oaicite:6]{index=6}",
+    "materialsAndFeatures": "Wooden beads, magnetic snap button enclosure, detachable sling." 
+  },
+  {
+    "name": "MENSAJERA Beaded Versatile Messenger Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Messenger / Sling",
+    "price": "₱5,200.00",
+    "availableColors": [
+      "Jet Black",
+      "Washed Blue",
+      "Washed Blue w/ Natural/Washed Brown | Verticals",
+      "Washed Brown w/ Natural/Black | Verticals"
+    ],
+    "size": "7\" x 2.5\" x 9.5\"",
+    "description": "The MENSAJERA Beaded Versatile Messenger Bag offers two strap options—wooden bead and Yakan fabric—letting you easily switch styling. Spacious and stylish with functional beadwork. :contentReference[oaicite:7]{index=7}",
+    "materialsAndFeatures": "Wooden beads, interior lining with side pocket, magnetic snap." 
+  },
+  {
+    "name": "RAYA Convertible Beaded Clutch/Sling/Shoulder Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Convertible Clutch / Sling / Shoulder",
+    "price": "₱6,500.00",
+    "availableColors": [
+      "Black w/ Natural | Crisscross",
+      "Washed Brown w/ Natural | Crisscross",
+      "Natural w/ Red | Geometric",
+      "Choco Brown w/ Natural | Diamonds",
+      "Black w/ Natural | Maze 1.0",
+      "Washed Brown w/ Natural | Maze 2.0",
+      "Black w/ Natural | Maze 2.0",
+      "Choco Brown w/ Natural | Maze 2.0",
+      "Natural w/ Black/Choco Brown | Band",
+      "Washed Blue w/ Natural/Orange | Sport",
+      "Natural w/ Black/Washed Brown | Band",
+      "Washed Blue w/ Natural/Green | Sport"
+    ],
+    "size": "10\" x 6.3\" x 2.5\"",
+    "description": "The RAYA Convertible Beaded Clutch/Sling/Shoulder Bag comes with two detachable straps allowing multiple wearing options. Handcrafted beadwork adds an elevated artisan touch. :contentReference[oaicite:8]{index=8}",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap enclosure." 
+  },
+
+  {
+    "name": "MONEDA Handmade Pouch with Wristlet",
+    "category": "Premium Straw Bag",
+    "bagType": "Wristlet / Pouch",
+    "price": "₱1,200.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Jet Black",
+      "White",
+      "Chocolate Brown"
+    ],
+    "size": "8\" x 1.5\" x 5\"",
+    "description": "MONEDA Handmade Pouch is perfect for small essentials or coins. Comes with a wristlet for convenient carrying. Handmade straw design adds artisanal charm to everyday use.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, wristlet strap, zip-top closure."
+  },
+  {
+    "name": "LUCIA Beaded Bohemian Tote Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Tote Bag",
+    "price": "₱6,800.00",
+    "availableColors": [
+      "Natural",
+      "Washed Brown",
+      "Choco Brown",
+      "Black"
+    ],
+    "size": "13\" x 5\" x 11\"",
+    "description": "LUCIA Beaded Bohemian Tote Bag brings a bold, artisanal flair with handcrafted beadwork. Spacious tote for everyday essentials or casual outings. Perfect for pairing with neutral or colorful outfits.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure, side pocket."
+  },
+  {
+    "name": "REINA Macrame Rattan Handles Handbag",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag / Shoulder",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Jet Black",
+      "Chocolate Brown"
+    ],
+    "size": "16\" x 3\" x 12\"",
+    "description": "REINA Macrame Handbag features elegant macrame patterns with rattan handles. Perfect for casual or semi-formal occasions, roomy interior with inner pocket.",
+    "materialsAndFeatures": "Soft straw rope, rattan handles, interior lining, pocket, magnetic snap closure."
+  },
+  {
+    "name": "RAFAELA, BABY (ELA) Hobo Handbag",
+    "category": "Premium Straw Bag",
+    "bagType": "Hobo Bag",
+    "price": "₱3,800.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black",
+      "White"
+    ],
+    "size": "14\" x 3\" x 12\"",
+    "description": "RAFAELA Hobo Handbag is a casual, relaxed style handbag made from soft straw rope. Spacious interior, perfect for everyday errands or outings.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, side pocket, magnetic snap closure."
+  },
+  {
+    "name": "ELISSA Five-Way Multifunctional Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Convertible Sling / Shoulder / Backpack",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Natural",
+      "Black",
+      "Chocolate Brown",
+      "Gold"
+    ],
+    "size": "15\" x 4\" x 12\"",
+    "description": "ELISSA Five-Way Multifunctional Bag lets you wear it five different ways: as a sling, backpack, or shoulder bag. Perfect for work, school, or casual travel. Handmade from high-quality straw rope.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, adjustable straps, multiple compartments."
+  },
+  {
+    "name": "OHIO Handmade Tote Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Tote Bag",
+    "price": "₱4,300.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Chocolate Brown",
+      "Jet Black"
+    ],
+    "size": "17\" x 5\" x 14\"",
+    "description": "OHIO Handmade Tote Bag is a versatile straw bag, perfect for daily use or beach trips. Spacious interior with inner pocket and sturdy handles.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, inner pocket, dual handles."
+  },
+  {
+    "name": "SAVANNAH Macrame Handbag",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag / Shoulder",
+    "price": "₱4,800.00",
+    "availableColors": [
+      "Natural",
+      "Black",
+      "Gold"
+    ],
+    "size": "15\" x 3\" x 11\"",
+    "description": "SAVANNAH Macrame Handbag features intricate macrame patterns with an elegant shoulder strap. Ideal for everyday or casual outings.",
+    "materialsAndFeatures": "Soft straw rope, macrame pattern, shoulder strap, interior lining."
+  },
+  {
+    "name": "OLIVIA Handmade Straw Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag",
+    "price": "₱4,200.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Chocolate Brown"
+    ],
+    "size": "14\" x 3\" x 10\"",
+    "description": "OLIVIA Handmade Straw Bag is a chic everyday handbag, lightweight and stylish. Perfect for pairing with neutral or colorful outfits.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, magnetic snap closure, single handle."
+  },
+  {
+    "name": "RAFAELA MAXI Hobo Handbag",
+    "category": "Premium Straw Bag",
+    "bagType": "Hobo Bag",
+    "price": "₱4,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "16\" x 4\" x 13\"",
+    "description": "RAFAELA MAXI Hobo Handbag is a larger version of the RAFAELA bag, perfect for carrying more essentials with comfort and style.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, side pocket, magnetic snap closure."
+  },
+  {
+    "name": "VENEZIA Beaded Crossbody Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Crossbody / Sling",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Washed Brown",
+      "Black"
+    ],
+    "size": "10\" x 3\" x 6\"",
+    "description": "VENEZIA Beaded Crossbody Bag is a stylish beaded bag that combines artisan craftsmanship with everyday functionality. Perfect for casual outings or events.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure, adjustable strap."
+  },
+
+
+  {
+    "name": "VEYDA Crocheted Clutch / Wristlet",
+    "category": "Premium Straw Bag",
+    "bagType": "Clutch / Wristlet",
+    "price": "₱1,500.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Jet Black"
+    ],
+    "size": "8\" x 2\" x 5\"",
+    "description": "VEYDA Crocheted Clutch/Wristlet is a handcrafted straw accessory, perfect for carrying small essentials. Can be used as a wristlet or clutch for casual or semi-formal occasions.",
+    "materialsAndFeatures": "Hand-crocheted straw, interior lining, wrist strap, zip closure."
+  },
+  {
+    "name": "EVITA Crocheted Moon Bag with Shoulder Strap",
+    "category": "Premium Straw Bag",
+    "bagType": "Shoulder / Sling",
+    "price": "₱3,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Jet Black"
+    ],
+    "size": "10\" x 3\" x 9\"",
+    "description": "EVITA Handmade Crocheted Moon Bag features a round, crescent design with a shoulder strap for versatile wear. Ideal for casual outings or as a statement accessory.",
+    "materialsAndFeatures": "Hand-crocheted straw, interior lining, adjustable strap, magnetic closure."
+  },
+  {
+    "name": "LUNA Handmade Half-Moon Clutch/Sling",
+    "category": "Premium Straw Bag",
+    "bagType": "Clutch / Sling",
+    "price": "₱2,800.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Black"
+    ],
+    "size": "9\" x 2\" x 6\"",
+    "description": "LUNA Half-Moon Clutch/Sling is a chic, compact handmade straw bag with versatile carrying options. Perfect for evening outings or casual day use.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, detachable strap, magnetic snap closure."
+  },
+  {
+    "name": "ISLA Macrame Tote Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Tote Bag",
+    "price": "₱4,800.00",
+    "availableColors": [
+      "Natural",
+      "Jet Black",
+      "Gold"
+    ],
+    "size": "16\" x 5\" x 14\"",
+    "description": "ISLA Macrame Tote Bag combines functionality and elegance. Spacious tote perfect for work, travel, or shopping trips.",
+    "materialsAndFeatures": "Soft straw rope, macrame design, interior lining, pockets, dual handles."
+  },
+  {
+    "name": "TALIA Handmade Handbag with Bamboo Handles",
+    "category": "Premium Straw Bag",
+    "bagType": "Handbag",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Chocolate Brown"
+    ],
+    "size": "15\" x 3\" x 12\"",
+    "description": "TALIA Handmade Handbag features elegant bamboo handles and macrame patterns, ideal for daily wear or casual events.",
+    "materialsAndFeatures": "Soft straw rope, bamboo handles, interior lining, pocket, magnetic snap closure."
+  },
+  {
+    "name": "SORAYA Convertible Beaded Clutch / Sling",
+    "category": "Wooden Beads Collection",
+    "bagType": "Clutch / Sling",
+    "price": "₱5,900.00",
+    "availableColors": [
+      "Black/Natural",
+      "Choco Brown/Natural",
+      "Washed Brown/Natural",
+      "Natural/Red"
+    ],
+    "size": "10\" x 6\" x 2.5\"",
+    "description": "SORAYA Convertible Beaded Clutch/Sling bag comes with two detachable straps allowing multiple styling options. Handmade wooden beads add artisan elegance.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure, 2 detachable straps."
+  },
+  {
+    "name": "CELINA Beaded Crossbody Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Crossbody / Sling",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black",
+      "Washed Brown"
+    ],
+    "size": "9\" x 2.5\" x 6\"",
+    "description": "CELINA Beaded Crossbody Bag is a handmade artisan piece suitable for casual and semi-formal wear. Compact yet roomy enough for essentials.",
+    "materialsAndFeatures": "Wooden beads, interior lining, adjustable strap, magnetic snap closure."
+  },
+  {
+    "name": "FIORE Beaded Tote Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Tote Bag",
+    "price": "₱6,500.00",
+    "availableColors": [
+      "Natural",
+      "Black",
+      "Choco Brown",
+      "Washed Brown"
+    ],
+    "size": "13\" x 5\" x 11\"",
+    "description": "FIORE Beaded Tote Bag is a spacious handcrafted tote with intricate beadwork. Perfect for everyday errands or casual outings.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure, side pockets."
+  },
+  {
+    "name": "ELENA Handmade Beaded Handbag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Handbag",
+    "price": "₱5,800.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "10\" x 3\" x 6\"",
+    "description": "ELENA Handmade Beaded Handbag features intricate artisan beadwork and a detachable strap. Ideal for semi-formal or casual outings.",
+    "materialsAndFeatures": "Wooden beads, interior lining, detachable strap, magnetic snap closure."
+  },
+  {
+    "name": "AMINA Beaded Evening Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Event / Evening Bag",
+    "price": "₱6,200.00",
+    "availableColors": [
+      "Black/Natural",
+      "Choco Brown/Natural",
+      "Washed Brown/Natural"
+    ],
+    "size": "7\" x 2\" x 5\"",
+    "description": "AMINA Beaded Evening Bag is perfect for formal events or weddings. Handmade wooden beads and elegant designs add a unique flair to your outfit.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure."
+  },
+
+
+  {
+    "name": "LIVIA Beaded Crossbody Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Crossbody / Sling",
+    "price": "₱5,400.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black",
+      "Washed Brown"
+    ],
+    "size": "9\" x 2.5\" x 6\"",
+    "description": "LIVIA Beaded Crossbody Bag is a versatile artisan bag ideal for casual wear or daily use. Compact but roomy enough for essentials.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure, adjustable strap."
+  },
+  {
+    "name": "MARA Handmade Beaded Tote Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Tote Bag",
+    "price": "₱6,800.00",
+    "availableColors": [
+      "Natural",
+      "Black",
+      "Choco Brown",
+      "Washed Brown"
+    ],
+    "size": "13\" x 5\" x 11\"",
+    "description": "MARA Handmade Beaded Tote Bag is spacious and stylish, perfect for daily errands, casual outings, or travel. Handmade artisan beadwork adds charm.",
+    "materialsAndFeatures": "Wooden beads, interior lining, side pocket, magnetic snap closure."
+  },
+  {
+    "name": "SOPHIA Beaded Evening Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Event / Evening Bag",
+    "price": "₱6,200.00",
+    "availableColors": [
+      "Black/Natural",
+      "Choco Brown/Natural",
+      "Washed Brown/Natural"
+    ],
+    "size": "7\" x 2\" x 5\"",
+    "description": "SOPHIA Beaded Evening Bag is elegant and compact, perfect for formal events, weddings, or special occasions. Handmade beadwork adds sophistication.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure."
+  },
+  {
+    "name": "MARIEL Handmade Shoulder Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Shoulder / Sling",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Chocolate Brown"
+    ],
+    "size": "14\" x 3\" x 11\"",
+    "description": "MARIEL Handmade Shoulder Bag is handcrafted from straw with elegant design details. Perfect for casual or semi-formal use.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, shoulder strap, magnetic snap closure."
+  },
+  {
+    "name": "ELLA Beaded Crossbody Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Crossbody / Sling",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "9\" x 2.5\" x 6\"",
+    "description": "ELLA Beaded Crossbody Bag combines artisan beadwork with practical design, perfect for everyday outings.",
+    "materialsAndFeatures": "Wooden beads, interior lining, adjustable strap, magnetic snap closure."
+  },
+  {
+    "name": "AMALIA Handmade Macrame Tote Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Tote Bag",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Jet Black"
+    ],
+    "size": "16\" x 5\" x 14\"",
+    "description": "AMALIA Handmade Macrame Tote Bag is a spacious bag perfect for shopping, work, or travel. Features macrame craftsmanship with durable handles.",
+    "materialsAndFeatures": "Soft straw rope, macrame design, interior lining, pockets, dual handles."
+  },
+  {
+    "name": "VIVIAN Beaded Clutch",
+    "category": "Wooden Beads Collection",
+    "bagType": "Clutch / Evening Bag",
+    "price": "₱5,900.00",
+    "availableColors": [
+      "Black/Natural",
+      "Choco Brown/Natural",
+      "Washed Brown/Natural"
+    ],
+    "size": "7\" x 2\" x 5\"",
+    "description": "VIVIAN Beaded Clutch is ideal for formal occasions or evening events. Handmade beadwork adds an elegant touch to your outfit.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure."
+  },
+  {
+    "name": "CORINA Handmade Shoulder Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Shoulder / Sling",
+    "price": "₱4,800.00",
+    "availableColors": [
+      "Natural",
+      "Chocolate Brown",
+      "Gold"
+    ],
+    "size": "14\" x 3\" x 12\"",
+    "description": "CORINA Handmade Shoulder Bag is a versatile and stylish straw bag perfect for daily use or casual outings.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, shoulder strap, magnetic snap closure."
+  },
+  {
+    "name": "FAYE Beaded Handbag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Handbag",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "10\" x 3\" x 6\"",
+    "description": "FAYE Beaded Handbag is a handcrafted artisan bag perfect for everyday or semi-formal wear. Features elegant beadwork and a detachable strap.",
+    "materialsAndFeatures": "Wooden beads, interior lining, detachable strap, magnetic snap closure."
+  },
+  {
+    "name": "TALIA MINI Handmade Beaded Sling",
+    "category": "Wooden Beads Collection",
+    "bagType": "Mini Sling / Crossbody",
+    "price": "₱4,200.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "8\" x 2\" x 5\"",
+    "description": "TALIA MINI Handmade Beaded Sling is compact yet stylish, perfect for carrying small essentials with hands-free convenience.",
+    "materialsAndFeatures": "Wooden beads, interior lining, adjustable strap, magnetic snap closure."
+  },
+
+
+
+  {
+    "name": "NINA Handmade Beaded Tote Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Tote Bag",
+    "price": "₱6,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black",
+      "Washed Brown"
+    ],
+    "size": "13\" x 5\" x 11\"",
+    "description": "NINA Handmade Beaded Tote Bag is spacious and versatile. Features artisan beadwork with a magnetic snap closure and interior pocket.",
+    "materialsAndFeatures": "Wooden beads, interior lining, side pocket, magnetic snap closure."
+  },
+  {
+    "name": "CARINA Handmade Shoulder Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Shoulder / Sling",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Chocolate Brown"
+    ],
+    "size": "14\" x 3\" x 12\"",
+    "description": "CARINA Handmade Shoulder Bag is crafted from high-quality straw rope. Stylish and functional for casual or semi-formal outings.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, shoulder strap, magnetic snap closure."
+  },
+  {
+    "name": "SABRINA Beaded Evening Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Evening / Event Bag",
+    "price": "₱6,200.00",
+    "availableColors": [
+      "Black/Natural",
+      "Choco Brown/Natural",
+      "Washed Brown/Natural"
+    ],
+    "size": "7\" x 2\" x 5\"",
+    "description": "SABRINA Beaded Evening Bag is perfect for weddings, parties, or formal occasions. Elegant handmade beadwork enhances any outfit.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure."
+  },
+  {
+    "name": "ARIELLE Handmade Macrame Tote Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Tote Bag",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Jet Black"
+    ],
+    "size": "16\" x 5\" x 14\"",
+    "description": "ARIELLE Handmade Macrame Tote Bag is perfect for shopping, work, or travel. Features handcrafted macrame design with dual handles.",
+    "materialsAndFeatures": "Soft straw rope, macrame design, interior lining, pockets, dual handles."
+  },
+  {
+    "name": "ISABEL Beaded Crossbody Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Crossbody / Sling",
+    "price": "₱5,400.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "9\" x 2.5\" x 6\"",
+    "description": "ISABEL Beaded Crossbody Bag is compact yet stylish, perfect for everyday outings. Handmade beadwork adds artisan charm.",
+    "materialsAndFeatures": "Wooden beads, interior lining, adjustable strap, magnetic snap closure."
+  },
+  {
+    "name": "VALERIA Handmade Shoulder Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Shoulder / Sling",
+    "price": "₱4,800.00",
+    "availableColors": [
+      "Natural",
+      "Chocolate Brown",
+      "Gold"
+    ],
+    "size": "14\" x 3\" x 12\"",
+    "description": "VALERIA Handmade Shoulder Bag is versatile and stylish. Ideal for casual outings or everyday errands.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, shoulder strap, magnetic snap closure."
+  },
+  {
+    "name": "MIA Beaded Handbag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Handbag",
+    "price": "₱5,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "10\" x 3\" x 6\"",
+    "description": "MIA Beaded Handbag features elegant handmade beads. Perfect for everyday use or semi-formal occasions.",
+    "materialsAndFeatures": "Wooden beads, interior lining, detachable strap, magnetic snap closure."
+  },
+  {
+    "name": "ALICIA MINI Handmade Beaded Sling",
+    "category": "Wooden Beads Collection",
+    "bagType": "Mini Sling / Crossbody",
+    "price": "₱4,200.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black"
+    ],
+    "size": "8\" x 2\" x 5\"",
+    "description": "ALICIA MINI Handmade Beaded Sling is compact, perfect for small essentials. Handmade artisan beads give a unique look.",
+    "materialsAndFeatures": "Wooden beads, interior lining, adjustable strap, magnetic snap closure."
+  },
+  {
+    "name": "NATALIA Handmade Beaded Tote",
+    "category": "Wooden Beads Collection",
+    "bagType": "Tote Bag",
+    "price": "₱6,500.00",
+    "availableColors": [
+      "Natural",
+      "Choco Brown",
+      "Jet Black",
+      "Washed Brown"
+    ],
+    "size": "13\" x 5\" x 11\"",
+    "description": "NATALIA Handmade Beaded Tote is spacious, practical, and artisan-crafted. Perfect for daily use or casual travel.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure, side pocket."
+  },
+  {
+    "name": "CARISSA Handmade Shoulder Bag",
+    "category": "Premium Straw Bag",
+    "bagType": "Shoulder / Sling",
+    "price": "₱4,900.00",
+    "availableColors": [
+      "Natural",
+      "Gold",
+      "Chocolate Brown"
+    ],
+    "size": "14\" x 3\" x 12\"",
+    "description": "CARISSA Handmade Shoulder Bag combines artisan straw weaving with a practical shoulder strap. Great for everyday casual use.",
+    "materialsAndFeatures": "Soft straw rope, interior lining, shoulder strap, magnetic snap closure."
+  },
+  {
+    "name": "ALTHEA Beaded Clutch / Evening Bag",
+    "category": "Wooden Beads Collection",
+    "bagType": "Evening / Event Bag",
+    "price": "₱6,200.00",
+    "availableColors": [
+      "Black/Natural",
+      "Choco Brown/Natural",
+      "Washed Brown/Natural"
+    ],
+    "size": "7\" x 2\" x 5\"",
+    "description": "ALTHEA Beaded Clutch is perfect for special occasions, weddings, or evening events. Handmade beadwork creates a unique artisan touch.",
+    "materialsAndFeatures": "Wooden beads, interior lining, magnetic snap closure."
+  }
+
+
+]
+

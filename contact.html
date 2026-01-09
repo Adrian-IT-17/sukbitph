@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us - SUKBIT</title>
+
+  <!-- Explicit weights so Cormorant doesn't render bold -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --brand-cream: #f6f1ea;
+      --brand-brown: #9b846a;
+      --bg-light: #f7efe9;
+      --text-brown: #4a3a2a;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Montserrat',sans-serif;
+      background:#e8ddd0;
+      color:var(--text-brown);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    /* Make sure Cormorant headings are rendered in light weight and not artificially bolded */
+    .cg-display, .cg-display * {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      font-synthesis: none;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    /* HEADER */
+    header {
+      background:linear-gradient(135deg,#a89278 0%,var(--brand-brown) 100%);
+      padding:15px 50px;
+      position:sticky; top:0; z-index:1000;
+    }
+    nav{display:flex;align-items:center;justify-content:space-between;max-width:1400px;margin:0 auto}
+    .logo{display:inline-flex;align-items:center;gap:6px;cursor:pointer;color:#fff}
+    .logo img{height:34px;display:block;margin-right:-8px;filter:brightness(1.02) saturate(0.95);transform:translateY(-3px)}
+    .logo span{font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px;color:#fff;transform:translateY(1px)}
+    .nav-links{display:flex;gap:30px;list-style:none}
+    .nav-links a{color:#fff;text-decoration:none;font-size:11px;font-weight:400;letter-spacing:1.2px;text-transform:uppercase}
+    .nav-icons{display:flex;gap:18px;color:#fff;font-size:11px;align-items:center}
+    .nav-icon{cursor:pointer;transition:all 0.3s ease;padding:8px 16px;border-radius:20px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);font-family:'Montserrat',sans-serif;font-weight:400;letter-spacing:1.2px;text-transform:uppercase}
+    .nav-icon:hover{background:rgba(255,255,255,0.2);transform:scale(1.05)}
+
+    /* DROPDOWN MENUS */
+    .dropdown{position:relative}
+    .dropdown-toggle{color:#fff;text-decoration:none;font-size:11px;font-weight:400;letter-spacing:1.2px;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;gap:4px}
+    .dropdown-toggle::after{content:'▼';font-size:8px;transition:transform 0.3s ease}
+    .dropdown:hover .dropdown-toggle::after{transform:rotate(180deg)}
+    .dropdown-menu{position:absolute;top:100%;left:0;background:#fff;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.15);border-radius:8px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.3s ease;z-index:1000;margin-top:10px}
+    .dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
+    .dropdown-menu a{display:block;padding:12px 20px;color:var(--text-brown);text-decoration:none;font-size:12px;font-family:'Montserrat',sans-serif;transition:background 0.3s ease}
+    .dropdown-menu a:hover{background:var(--bg-light)}
+    .dropdown-menu a:first-child{border-radius:8px 8px 0 0}
+    .dropdown-menu a:last-child{border-radius:0 0 8px 8px}
+
+    /* PAGE CONTENT */
+    .page-hero{
+      position:relative;
+      height:40vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:
+        linear-gradient(to top,rgba(155,132,106,0.8),rgba(139,115,85,0.4),rgba(90,74,58,0.2)),
+        url("FullSizeRender_2c0809d1-229f-4379-975c-88bead31b70b_533x.png");
+      background-size:cover;
+      background-position:center;
+      border-bottom:5px solid #efe7e1;
+    }
+
+    .page-title{
+      font-family:'Cormorant Garamond',serif;
+      font-size:48px;
+      color:#fff;
+      text-shadow:2px 4px 10px rgba(0,0,0,0.25);
+      font-weight:400;
+    }
+
+    .content{
+      max-width:900px;
+      margin:0 auto;
+      padding:60px 40px;
+      background:#fff;
+      margin:40px auto;
+      border-radius:15px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .content h2{
+      font-family:'Cormorant Garamond',serif;
+      font-size:32px;
+      color:var(--text-brown);
+      margin-bottom:20px;
+      font-weight:400;
+    }
+
+    .content h3{
+      font-family:'Cormorant Garamond',serif;
+      font-size:24px;
+      color:var(--brand-brown);
+      margin-bottom:15px;
+      font-weight:400;
+    }
+
+    .content p{
+      font-size:16px;
+      line-height:1.6;
+      margin-bottom:20px;
+      color:var(--text-brown);
+    }
+
+    .contact-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      margin:40px 0;
+    }
+
+    .contact-info{
+      background:var(--bg-light);
+      padding:30px;
+      border-radius:10px;
+    }
+
+    .contact-info h3{
+      margin-bottom:20px;
+    }
+
+    .contact-info p{
+      margin-bottom:15px;
+      font-size:15px;
+    }
+
+    .contact-form{
+      background:var(--bg-light);
+      padding:30px;
+      border-radius:10px;
+    }
+
+    .form-group{
+      margin-bottom:20px;
+    }
+
+    .form-group label{
+      display:block;
+      margin-bottom:8px;
+      font-weight:600;
+      font-size:14px;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    }
+
+    .form-group input,
+    .form-group textarea{
+      width:100%;
+      padding:12px;
+      border:2px solid var(--brand-brown);
+      border-radius:8px;
+      font-family:'Montserrat',sans-serif;
+      font-size:14px;
+      background:#fff;
+      color:var(--text-brown);
+    }
+
+    .form-group textarea{
+      height:120px;
+      resize:vertical;
+    }
+
+    .submit-btn{
+      background:var(--brand-brown);
+      color:#fff;
+      border:none;
+      padding:15px 30px;
+      border-radius:25px;
+      font-family:'Montserrat',sans-serif;
+      font-weight:600;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      cursor:pointer;
+      transition:all 0.3s ease;
+    }
+
+    .submit-btn:hover{
+      background:#8a735a;
+      transform:scale(1.02);
+    }
+
+    .back-link{
+      display:inline-block;
+      margin-top:30px;
+      padding:12px 24px;
+      background:var(--brand-brown);
+      color:#fff;
+      text-decoration:none;
+      border-radius:25px;
+      font-family:'Montserrat',sans-serif;
+      font-weight:600;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      transition:all 0.3s ease;
+    }
+
+    .back-link:hover{
+      background:#8a735a;
+      transform:scale(1.02);
+    }
+
+    /* Responsive */
+    @media (max-width:768px){
+      .content{
+        margin:20px;
+        padding:40px 30px;
+      }
+      .page-title{
+        font-size:36px;
+      }
+      .contact-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo cg-display" aria-label="SUKBIT brand" onclick="window.location.href='index.html'" style="cursor:pointer">
+        <img src="0792775b-b60a-4221-aeab-c489c138b104-removebg-preview.png" alt="S mark">
+        <span>UKBIT</span>
+      </div>
+
+      <ul class="nav-links">
+        <li class="dropdown">
+          <span class="dropdown-toggle">SHOP NOW</span>
+          <div class="dropdown-menu">
+            <a href="products.html">All Bags</a>
+            <a href="products.html?category=handbag">Handbags</a>
+            <a href="products.html?category=tote">Tote Bags</a>
+            <a href="products.html?category=crossbody">Crossbody Bags</a>
+            <a href="products.html?category=clutch">Clutches</a>
+            <a href="products.html?category=shoulder">Shoulder Bags</a>
+            <a href="products.html?category=beads">Beads Collection</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <span class="dropdown-toggle">MY SUKBIT</span>
+          <div class="dropdown-menu">
+            <a href="account.html">My Account</a>
+            <a href="account.html">Order History</a>
+            <a href="account.html">Wishlist</a>
+            <a href="custom.html">Custom Orders</a>
+            <a href="track.html">Track Order</a>
+            <a href="returns.html">Returns</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <span class="dropdown-toggle">MORE INFO</span>
+          <div class="dropdown-menu">
+            <a href="about.html">About Us</a>
+            <a href="story.html">Our Story</a>
+            <a href="craftsmanship.html">Craftsmanship</a>
+            <a href="materials.html">Materials</a>
+            <a href="care.html">Care Guide</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="shipping.html">Shipping Info</a>
+            <a href="size.html">Size Guide</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="nav-icons">
+        <span class="nav-icon" onclick="openSearch()">SEARCH</span>
+        <span class="nav-icon" onclick="openAccount()">ACCOUNT</span>
+        <span class="nav-icon" onclick="openCart()">CART</span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero" aria-label="Contact Us Hero">
+    <h1 class="page-title cg-display">Contact Us</h1>
+  </section>
+
+  <main class="content">
+    <h2 class="cg-display">Get in Touch</h2>
+    <p>We'd love to hear from you! Whether you have questions about our products, want to place a custom order, or just want to learn more about SUKBIT, don't hesitate to reach out.</p>
+    
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3 class="cg-display">Contact Information</h3>
+        <p><strong>Email:</strong> shop@sukbitph.com</p>
+        <p><strong>Phone:</strong> (63) 09123-4567</p>
+        <p><strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM PHT</p>
+        <p><strong>Location:</strong> Philippines</p>
+        
+        <h3 class="cg-display">Business Inquiries</h3>
+        <p>For bulk orders, wholesale partnerships, or media inquiries, please email us at <strong>business@sukbitph.com</strong></p>
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="cg-display">Send us a Message</h3>
+        <form onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject">
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+    
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </main>
+
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+      
+      const formData = new FormData(event.target);
+      const data = {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        subject: formData.get('subject'),
+        message: formData.get('message')
+      };
+      
+      // Here you would normally send this data to your server
+      console.log('Form submitted:', data);
+      showNotification('Message Sent', 'Thank you for your message! We\'ll get back to you within 24 hours.');
+      event.target.reset();
+    }
+  </script>
+
+  <script>
+    // Navigation Functions
+    function openSearch() {
+      document.getElementById('searchModal').classList.add('active');
+      document.getElementById('searchInput').focus();
+    }
+
+    function closeSearch() {
+      document.getElementById('searchModal').classList.remove('active');
+      document.getElementById('searchInput').value = '';
+      document.getElementById('searchResults').innerHTML = '';
+    }
+
+    // Enhanced Search Functionality
+      let allProductsData = [];
+      
+      function initializeSearchData() {
+        // Load product data for search
+        fetch('productdescription.json')
+          .then(r => r.json())
+          .then(data => {
+            allProductsData = data;
+            console.log('Search data loaded:', allProductsData.length, 'products');
+          })
+          .catch(err => {
+            console.log('Failed to load search data:', err);
+          });
+      }
+      
+      function performSearch(event) {
+        if (event && event.key === 'Enter') {
+          event.preventDefault();
+        }
+        
+        const searchTerm = document.getElementById('searchInput').value;
+        const resultsContainer = document.getElementById('searchResults');
+        
+        if (!searchTerm || searchTerm.length < 2) {
+          resultsContainer.innerHTML = '';
+          return;
+        }
+        
+        const results = searchProducts(searchTerm);
+        displaySearchResults(results, searchTerm);
+      }
+      
+      function searchProducts(searchTerm) {
+        const term = searchTerm.toLowerCase().trim();
+        const results = [];
+        
+        allProductsData.forEach(product => {
+          let score = 0;
+          let matches = [];
+          
+          // Search in bag name
+          if (product.name && product.name.toLowerCase().includes(term)) {
+            score += 10;
+            matches.push('name');
+          }
+          
+          // Search in description
+          if (product.description && product.description.toLowerCase().includes(term)) {
+            score += 5;
+            matches.push('description');
+          }
+          
+          // Search in category
+          if (product.category && product.category.toLowerCase().includes(term)) {
+            score += 8;
+            matches.push('category');
+          }
+          
+          // Search in bag type
+          if (product.bagType && product.bagType.toLowerCase().includes(term)) {
+            score += 6;
+            matches.push('type');
+          }
+          
+          // Search in colors
+          if (product.availableColors) {
+            product.availableColors.forEach(color => {
+              if (color.toLowerCase().includes(term)) {
+                score += 4;
+                matches.push('color');
+              }
+            });
+          }
+          
+          // Search in materials
+          if (product.materialsAndFeatures && product.materialsAndFeatures.toLowerCase().includes(term)) {
+            score += 3;
+            matches.push('materials');
+          }
+          
+          if (score > 0) {
+            results.push({
+              ...product,
+              score: score,
+              matches: matches
+            });
+          }
+        });
+        
+        // Sort by relevance score
+        return results.sort((a, b) => b.score - a.score);
+      }
+      
+      function displaySearchResults(results, searchTerm) {
+        const resultsContainer = document.getElementById('searchResults');
+        
+        if (results.length === 0) {
+          resultsContainer.innerHTML = `
+            <div class="search-no-results">
+              <p>No results found for "${searchTerm}"</p>
+              <p>Try searching for bag names, colors, or categories</p>
+            </div>
+          `;
+          return;
+        }
+        
+        const resultsHTML = results.slice(0, 6).map(product => {
+          const key = keyFromDisplayNameGlobal(product.name);
+          const image = getImageForBag(key) || '';
+          const price = formatPriceFor(key, product.price, 'search');
+          
+          return `
+            <div class="search-result-item" onclick="goToProduct('${product.name}')">
+              <div class="search-result-img" style="background-image:url('${image}')"></div>
+              <div class="search-result-info">
+                <h4>${product.name}</h4>
+                <p class="search-result-desc">${formatCardDescription(product.description, key)}</p>
+                <div class="search-result-meta">
+                  <span class="search-result-price">${price}</span>
+                  <span class="search-result-category">${product.category}</span>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('');
+        
+        const viewAllLink = results.length > 6 ? 
+          `<div class="search-view-all">
+            <a href="products.html?search=${encodeURIComponent(searchTerm)}" class="search-view-all-link">
+              View all ${results.length} results →
+            </a>
+          </div>` : '';
+        
+        resultsContainer.innerHTML = `
+          <div class="search-results-list">
+            ${resultsHTML}
+          </div>
+          ${viewAllLink}
+        `;
+      }
+      
+      function goToProduct(productName) {
+        // Close search modal and go to products page with product filter
+        closeSearch();
+        window.location.href = `products.html?search=${encodeURIComponent(productName)}`;
+      }
+      
+      function getImageForBag(key) {
+        // Use the same image mapping logic as products page
+        const IMAGE_BY_KEY = {
+          AINA: 'Aina_-_natural_w__black_vertical_lines_360x.webp',
+          ALESSANDRA: 'Alessandra_when-worn_360x.webp',
+          ALORA: 'AloraWashedBlue_Natural_360x.webp',
+          AMPARO: 'Amparo_Yellow_360x.webp',
+          AVA: 'Ava-JetBlack_360x.webp',
+          BEATRIZ: 'BEATRIZ_-_black_600x.webp',
+          BIANCA: 'BIANCA_Black_with_Choco_Brown_360x.webp',
+          CAILA: 'Caila_black_V.2_1_360x.webp',
+          CALLA: 'Calla_chocobrownwithnatural1_360x.webp',
+          CAMILA: 'Camila_1_360x.webp',
+          CARINA: 'CARINA_GREY_360x.webp',
+          CARMELA: 'Calla_chocobrownwithnatural1_360x.webp',
+          EVITA: 'Evita_gold_handbag.webp',
+          FIESTA: 'FIESTA_gold_0dc52484-0ca1-4b84-9dff-f589a521126b_360x.webp',
+          IVANNA: 'Ivanna-Limited-Gold_Black_Cream_360x.webp',
+          KIARA: 'KIARA-_Choco_Brown_with_Natural_360x.webp',
+          LUCIA: 'LuciaNatural_360x.webp',
+          LUNA: 'LUNA-BLACK_360x.jpg',
+          MARINA: 'Tara_jet_black_2_19587e5f-7400-41ed-9406-59b8001ede09_360x.webp',
+          MARTINA: 'MARTINA_-_black_with_cream_360x.webp',
+          MENSAJERA: 'MENSAJERA_when_worn_360x.webp',
+          MONICA: 'Monica_-_natural_w__washed_blue_360x.webp',
+          OLIVIA: 'OLIVIA-WHITE_360x.webp',
+          PICCOLA: 'PICCOLA_-_GOLD_ef2ed91d-e249-456e-931c-c1bc5502b53b_600x.webp',
+          RAFAELA: 'Mini_Rafaela_Blue_600x.webp',
+          RAYA: 'RAYA_-_Crisscross_-_Black_with_Natural_360x.webp',
+          SAMANTHA: 'Samantha_washed_brown_1_360x.webp',
+          SAVANNAH: 'Savannah_blacknwhite_speckled_360x.webp',
+          STELLA: 'STELLA_black_aa565e9c-71df-4274-8f55-e3c4112cd517_360x.webp',
+          TARA: 'Tara_jet_black_2_19587e5f-7400-41ed-9406-59b8001ede09_360x.webp',
+          VALENTIA: 'VALENTIA_2TONED_-_Gold_with_White_360x.webp',
+          VICTORIA: 'Victoria_Grey_360x.jpg',
+          VITTORIA: 'Vittoria-ChocoBrown_360x.webp',
+          YARA: 'YARA_BLACK_360x.webp',
+          ZARAH: 'Zarahwithsling.webp'
+        };
+        
+        if (IMAGE_BY_KEY[key]) return IMAGE_BY_KEY[key];
+        
+        // Fallback images
+        const fallbackImages = [
+          'Aina_-_natural_w__black_vertical_lines_360x.webp',
+          'BIANCA_Black_with_Choco_Brown_360x.webp',
+          'LUNA-BLACK_360x.jpg',
+          'PICCOLA_-_GOLD_ef2ed91d-e249-456e-931c-c1bc5502b53b_600x.webp',
+          'STELLA_black_aa565e9c-71df-4274-8f55-e3c4112cd517_360x.webp'
+        ];
+        
+        const hash = key.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+        return fallbackImages[hash % fallbackImages.length];
+      }
+      
+      function formatPriceFor(key, price, section) {
+        if (price && typeof price === 'string') {
+          return price;
+        }
+        const num = parseInt(price) || 0;
+        return num > 0 ? `₱${num.toLocaleString()}` : '₱0';
+      }
+      
+      function formatCardDescription(raw, key) {
+        if (!raw) return '';
+        const desc = String(raw).replace(/:contentReference\[[^\]]+\]\{[^\}]+\}/g, '').replace(/speranza/ig, 'SUKBIT').trim();
+        return desc.length > 90 ? desc.substring(0, 87) + '...' : desc;
+      }
+      
+      function keyFromDisplayNameGlobal(name) {
+        const cleaned = String(name || '').trim().replace(/\s+(II|III|IV|V|\d+)$/i, '');
+        const parts = cleaned.split(/\s+/).filter(Boolean);
+        if (parts.length === 0) return '';
+        if (parts[0].toUpperCase() === 'MINI' && parts.length > 1) return parts[1].toUpperCase();
+        if (parts[0].toUpperCase() === 'MAXI' && parts.length > 1) return parts[1].toUpperCase();
+        return parts[0].toUpperCase();
+      }
+
+    function navigateToProduct(page, productName) {
+      // Store the product name in sessionStorage for highlighting on the products page
+      sessionStorage.setItem('searchedProduct', productName);
+      window.location.href = page;
+    }
+
+    function searchByCategory(category) {
+      const normalized = String(category || '').toLowerCase().trim();
+      const normalizedCategory = (
+        normalized === 'handbags' ? 'handbag' :
+        normalized === 'bags' ? '' :
+        normalized === 'shoulderbags' ? 'shoulder' :
+        normalized === 'beadscollection' ? 'beads' :
+        normalized
+      );
+
+      sessionStorage.setItem('searchedCategory', normalizedCategory);
+      window.location.href = 'products.html';
+    }
+
+    function closeSearch() {
+      document.getElementById('searchModal').classList.remove('active');
+      document.getElementById('searchInput').value = '';
+      document.getElementById('searchResults').innerHTML = '';
+    }
+
+    
+    
+    function openAccount() {
+      document.getElementById('accountModal').classList.add('active');
+    }
+
+    function closeAccount() {
+      document.getElementById('accountModal').classList.remove('active');
+    }
+
+    function openCart() {
+      document.getElementById('cartModal').classList.add('active');
+      updateCartDisplay();
+    }
+
+    function closeCart() {
+      document.getElementById('cartModal').classList.remove('active');
+    }
+
+    // Account Functions
+    function switchAccountTab(tab) {
+      document.querySelectorAll('.account-tab').forEach(t => t.classList.remove('active'));
+      event.target.classList.add('active');
+      
+      document.querySelectorAll('.account-form').forEach(f => f.classList.remove('active'));
+      document.getElementById(tab + 'Form').classList.add('active');
+    }
+
+    function handleLogin(event) {
+      event.preventDefault();
+      showNotification('Login', 'Thanks for logging in.');
+      closeAccount();
+    }
+
+    function handleRegister(event) {
+      event.preventDefault();
+      showNotification('Registration', 'Thanks for registering.');
+      closeAccount();
+    }
+
+    function showAccountLinks() {
+      showNotification('Account', 'Account options will be available soon.');
+    }
+
+    // Cart Functions - Using localStorage for persistence
+    function getCartItems() {
+      const stored = localStorage.getItem('sukbitCart');
+      return stored ? JSON.parse(stored) : [];
+    }
+
+    function saveCartItems(items) {
+      localStorage.setItem('sukbitCart', JSON.stringify(items));
+    }
+
+    function addToCart(product, price, quantity = 1) {
+      const cartItems = getCartItems();
+      const existingItem = cartItems.find(item => item.name === product);
+      
+      if (existingItem) {
+        existingItem.quantity += quantity;
+      } else {
+        cartItems.push({
+          name: product,
+          price: price,
+          quantity: quantity,
+          id: Date.now()
+        });
+      }
+      
+      saveCartItems(cartItems);
+      updateCartDisplay();
+      
+      const lastItem = cartItems[cartItems.length - 1];
+      const priceStr = typeof lastItem.price === 'string' ? lastItem.price : '₱' + lastItem.price.toLocaleString();
+      showCartNotification(lastItem.name, priceStr, quantity);
+    }
+
+    function removeFromCart(index) {
+      const cartItems = getCartItems();
+      cartItems.splice(index, 1);
+      saveCartItems(cartItems);
+      updateCartDisplay();
+    }
+
+    function updateQuantity(index, change) {
+      const cartItems = getCartItems();
+      const item = cartItems[index];
+      item.quantity += change;
+      
+      if (item.quantity <= 0) {
+        cartItems.splice(index, 1);
+      }
+      
+      saveCartItems(cartItems);
+      updateCartDisplay();
+    }
+
+    function updateCartDisplay() {
+      const cartItems = getCartItems();
+      const cartItemsContainer = document.getElementById('cartItems');
+      const cartSummary = document.getElementById('cartSummary');
+      
+      if (cartItems.length === 0) {
+        cartItemsContainer.innerHTML = `
+          <div class="cart-empty">
+            <p>Your cart is empty</p>
+            <p>Add some beautiful SUKBIT bags to get started!</p>
+          </div>
+        `;
+        cartSummary.style.display = 'none';
+      } else {
+        cartItemsContainer.innerHTML = cartItems.map((item, index) => {
+          const priceStr = typeof item.price === 'string' ? item.price : '₱' + item.price.toLocaleString();
+          const priceNum = typeof item.price === 'string' ? parseInt(item.price.replace('₱', '').replace(/,/g, '')) : item.price;
+          const itemTotal = priceNum * item.quantity;
+          
+          return `
+            <div class="cart-item">
+              <div class="cart-item-info">
+                <div class="cart-item-name">${item.name}</div>
+                <div class="cart-item-price">${priceStr}</div>
+              </div>
+              <div class="cart-item-quantity">
+                <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">−</button>
+                <span class="quantity-value">${item.quantity}</span>
+                <button class="quantity-btn" onclick="updateQuantity(${index}, 1)">+</button>
+              </div>
+              <div class="cart-item-total">₱${itemTotal.toLocaleString()}</div>
+              <button class="cart-item-remove" onclick="removeFromCart(${index})">×</button>
+            </div>
+          `;
+        }).join('');
+        
+        const cartTotal = cartItems.reduce((total, item) => {
+          const priceNum = typeof item.price === 'string' ? parseInt(item.price.replace('₱', '').replace(/,/g, '')) : item.price;
+          return total + (priceNum * item.quantity);
+        }, 0);
+        
+        document.getElementById('cartTotal').textContent = '₱' + cartTotal.toLocaleString();
+        cartSummary.style.display = 'block';
+      }
+    }
+
+    function showCartNotification(product, price, quantity) {
+      const cartItems = getCartItems();
+      const cartTotal = cartItems.reduce((total, item) => {
+        const priceNum = typeof item.price === 'string' ? parseInt(item.price.replace('₱', '').replace(/,/g, '')) : item.price;
+        return total + (priceNum * item.quantity);
+      }, 0);
+      
+      const notification = document.createElement('div');
+      notification.className = 'cart-notification';
+      notification.innerHTML = `
+        <div class="notification-content">
+          <span class="notification-item">${product}</span>
+          <span class="notification-quantity">×${quantity}</span>
+          <span class="notification-price">${price}</span>
+        </div>
+        <div class="notification-total">Cart Total: ₱${cartTotal.toLocaleString()}</div>
+      `;
+      
+      document.body.appendChild(notification);
+      
+      setTimeout(() => {
+        if (notification.parentNode) {
+          notification.parentNode.removeChild(notification);
+        }
+      }, 3000);
+    }
+    function proceedToCheckout() {
+      const cartItems = getCartItems();
+      const cartTotal = cartItems.reduce((total, item) => {
+        const priceNum = typeof item.price === 'string' ? parseInt(item.price.replace('₱', '').replace(/,/g, '')) : item.price;
+        return total + (priceNum * item.quantity);
+      }, 0);
+      showNotification('Checkout', 'Checkout will be available soon. Total: ₱' + cartTotal.toLocaleString());
+    }
+
+    function showNotification(title, message) {
+      const notification = document.createElement('div');
+      notification.className = 'cart-notification';
+      notification.innerHTML = `
+        <div class="notification-content">
+          <span class="notification-item">${title}</span>
+        </div>
+        <div class="notification-total">${message}</div>
+      `;
+      document.body.appendChild(notification);
+      
+      setTimeout(() => {
+        if (notification.parentNode) {
+          notification.parentNode.removeChild(notification);
+        }
+      }, 4000);
+    }
+  </script>
+
+  <!-- SEARCH MODAL -->
+  <div class="search-modal" id="searchModal">
+    <div class="search-content">
+      <button class="search-close" onclick="closeSearch()">×</button>
+      <h2 class="search-title">Search SUKBIT</h2>
+      
+      <div class="search-categories">
+        <span class="search-category" onclick="searchByCategory('bags')">Bags</span>
+        <span class="search-category" onclick="searchByCategory('handbags')">Handbags</span>
+        <span class="search-category" onclick="searchByCategory('tote')">Tote Bags</span>
+        <span class="search-category" onclick="searchByCategory('crossbody')">Crossbody</span>
+        <span class="search-category" onclick="searchByCategory('clutch')">Clutches</span>
+        <span class="search-category" onclick="searchByCategory('custom')">Custom</span>
+      </div>
+      
+      <div class="search-input-wrapper">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search for bags, colors, materials..." onkeyup="performSearch(event)">
+        <button class="search-btn" onclick="performSearch()">Search</button>
+      </div>
+      
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <style>
+    /* MODAL STYLES */
+    .search-modal {
+      position:fixed;
+      top:0;left:0;right:0;bottom:0;
+      background:rgba(0,0,0,0.8);
+      z-index:9999;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      backdrop-filter:blur(5px)
+    }
+    .search-modal.active {
+      display:flex;
+    }
+    .search-content {
+      background:#fff;
+      border-radius:20px;
+      padding:40px;
+      max-width:600px;
+      width:90%;
+      position:relative;
+      box-shadow:0 20px 60px rgba(0,0,0,0.3);
+      max-height:85vh;
+      overflow:hidden;
+      display:flex;
+      flex-direction:column
+    }
+    .search-close{
+      position:absolute;
+      top:20px;right:20px;
+      width:40px;height:40px;
+      border-radius:50%;
+      background:var(--brand-cream);
+      border:none;
+      cursor:pointer;
+      display:flex;align-items:center;justify-content:center;
+      font-size:24px;
+      color:var(--text-brown);
+      transition:all 0.3s ease
+    }
+    .search-close:hover{
+      background:var(--brand-brown);
+      color:#fff;
+      transform:scale(1.1)
+    }
+    .search-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:32px;
+      color:var(--text-brown);
+      margin-bottom:20px;
+      text-align:center;
+    }
+    .search-input {
+      width:100%;
+      padding:15px 50px 15px 20px;
+      border:2px solid var(--brand-cream);
+      border-radius:8px;
+      font-family:'Montserrat',sans-serif;
+      font-size:16px;
+      background:var(--brand-cream);
+      color:var(--text-brown);
+      outline:none;
+      transition:all 0.3s ease
+    }
+    .search-input:focus{
+      border-color:var(--brand-brown);
+      box-shadow:0 0 0 3px rgba(155,132,106,0.1)
+    }
+    .search-result-item {
+      padding:15px;
+      border-bottom:1px solid rgba(0,0,0,0.1);
+      cursor:pointer;
+      transition:all 0.3s ease;
+    }
+    .search-result-item:hover {
+      background:rgba(0,0,0,0.05);
+    }
+    .search-no-results{
+      text-align:center;
+      padding:40px;
+      color:var(--text-brown);
+      font-family:'Montserrat',sans-serif
+    }
+    .search-categories{
+      display:flex;
+      gap:10px;
+      margin-bottom:20px;
+      flex-wrap:wrap
+    }
+    .search-category{
+      background:var(--brand-cream);
+      color:var(--text-brown);
+      padding:8px 15px;
+      border-radius:20px;
+      font-size:12px;
+      font-family:'Montserrat',sans-serif;
+      font-weight:500;
+      cursor:pointer;
+      transition:all 0.3s ease;
+      border:1px solid transparent
+    }
+    .search-category:hover{
+      background:var(--brand-brown);
+      color:#fff;
+      border-color:var(--brand-brown)
+    }
+    .search-input-wrapper{
+      position:relative;
+      margin-bottom:30px
+    }
+    .search-btn{
+      position:absolute;
+      right:5px;top:50%;
+      transform:translateY(-50%);
+      background:var(--brand-brown);
+      color:#fff;
+      border:none;
+      border-radius:6px;
+      padding:10px 15px;
+      font-family:'Montserrat',sans-serif;
+      font-size:12px;
+      cursor:pointer;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      transition:all 0.3s ease
+    }
+    .search-btn:hover{
+      background:#8a735a;
+      transform:translateY(-50%) scale(1.05)
+    }
+    .search-results, #searchResults{
+      flex:1;
+      min-height:0;
+      overflow-y:auto;
+    }
+    .search-no-results {
+      text-align:center;
+      padding:20px;
+      color:var(--text-brown);
+      font-style:italic;
+    }
+
+    /* ACCOUNT MODAL STYLES */
+    .account-modal{
+      position:fixed;
+      top:0;left:0;right:0;bottom:0;
+      background:rgba(0,0,0,0.8);
+      z-index:9999;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      backdrop-filter:blur(5px)
+    }
+    .account-modal.active{display:flex}
+    .account-content{
+      background:#fff;
+      border-radius:20px;
+      padding:40px;
+      max-width:550px;
+      width:90%;
+      max-height:85vh;
+      overflow-y:auto;
+      position:relative;
+      box-shadow:0 20px 60px rgba(0,0,0,0.3)
+    }
+    .account-close{
+      position:absolute;
+      top:20px;right:20px;
+      width:40px;height:40px;
+      border-radius:50%;
+      background:var(--brand-cream);
+      border:none;
+      cursor:pointer;
+      display:flex;align-items:center;justify-content:center;
+      font-size:24px;
+      color:var(--text-brown);
+      transition:all 0.3s ease
+    }
+    .account-close:hover{
+      background:var(--brand-brown);
+      color:#fff;
+      transform:scale(1.1)
+    }
+    .account-title{
+      font-family:'Cormorant Garamond',serif;
+      font-size:32px;
+      color:var(--text-brown);
+      margin-bottom:30px;
+      text-align:center
+    }
+    .account-tabs{
+      display:flex;
+      gap:10px;
+      margin-bottom:30px;
+      border-bottom:2px solid var(--brand-cream)
+    }
+    .account-tab{
+      flex:1;
+      padding:12px;
+      background:none;
+      border:none;
+      font-family:'Montserrat',sans-serif;
+      font-weight:600;
+      color:var(--text-brown);
+      cursor:pointer;
+      transition:all 0.3s ease;
+      border-bottom:3px solid transparent
+    }
+    .account-tab.active{
+      border-bottom-color:var(--brand-brown);
+      color:var(--brand-brown)
+    }
+    .account-tab:hover{
+      color:var(--brand-brown)
+    }
+    .account-form{
+      display:none
+    }
+    .account-form.active{display:block}
+    .form-group{
+      margin-bottom:20px
+    }
+    .form-label{
+      display:block;
+      margin-bottom:8px;
+      font-family:'Montserrat',sans-serif;
+      font-weight:500;
+      color:var(--text-brown);
+      font-size:14px
+    }
+    .form-input{
+      width:100%;
+      padding:12px 15px;
+      border:2px solid var(--brand-cream);
+      border-radius:8px;
+      font-family:'Montserrat',sans-serif;
+      font-size:14px;
+      outline:none;
+      transition:all 0.3s ease
+    }
+    .form-input:focus{
+      border-color:var(--brand-brown);
+      box-shadow:0 0 0 3px rgba(155,132,106,0.1)
+    }
+    .form-checkbox{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      cursor:pointer;
+      font-family:'Montserrat',sans-serif;
+      font-size:14px;
+      color:var(--text-brown);
+    }
+    .form-submit{
+      width:100%;
+      padding:15px;
+      background:var(--brand-brown);
+      color:#fff;
+      border:none;
+      border-radius:8px;
+      font-family:'Montserrat',sans-serif;
+      font-size:16px;
+      cursor:pointer;
+      transition:all 0.3s ease;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      font-weight:600;
+    }
+    .form-submit:hover{
+      background:#8a735a;
+      transform:translateY(-2px)
+    }
+    .account-links{
+      display:flex;
+      justify-content:space-between;
+      margin-top:20px;
+      font-size:12px;
+    }
+    .account-links a{
+      color:var(--brand-brown);
+      text-decoration:underline;
+    }
+
+    /* CART MODAL STYLES */
+    .cart-modal {
+      position:fixed;
+      top:0;left:0;right:0;bottom:0;
+      background:rgba(0,0,0,0.8);
+      z-index:9999;
+      display:none;
+      align-items:center;
+      justify-content:center;
+      backdrop-filter:blur(5px)
+    }
+    .cart-modal.active {
+      display:flex;
+    }
+    .cart-content {
+      background:#fff;
+      border-radius:20px;
+      padding:40px;
+      max-width:600px;
+      width:90%;
+      position:relative;
+      box-shadow:0 20px 60px rgba(0,0,0,0.3);
+      max-height:80vh;
+      overflow-y:auto;
+    }
+    .cart-close {
+      position:absolute;
+      top:20px;right:20px;
+      width:40px;height:40px;
+      border-radius:50%;
+      background:var(--brand-cream);
+      border:none;
+      cursor:pointer;
+      display:flex;align-items:center;justify-content:center;
+      font-size:24px;
+      color:var(--text-brown);
+      transition:all 0.3s ease
+    }
+    .cart-close:hover {
+      background:var(--brand-brown);
+      color:#fff;
+      transform:scale(1.1)
+    }
+    .cart-title {
+      font-family:'Cormorant Garamond',serif;
+      font-size:32px;
+      color:var(--text-brown);
+      margin-bottom:30px;
+      text-align:center
+    }
+    .cart-empty {
+      text-align:center;
+      padding:40px;
+      color:var(--text-brown);
+    }
+    .cart-item {
+      display:flex;
+      gap:20px;
+      padding:20px;
+      border-bottom:1px solid var(--brand-cream);
+      align-items:center;
+    }
+    .cart-item:last-child {
+      border-bottom:none;
+    }
+    .cart-item-image {
+      width:80px;
+      height:80px;
+      background:var(--brand-cream);
+      border-radius:8px;
+      flex-shrink:0;
+    }
+    .cart-item-details {
+      flex:1
+    }
+    .cart-item-name {
+      font-family:'Montserrat',sans-serif;
+      font-weight:600;
+      color:var(--text-brown);
+      margin-bottom:5px
+    }
+    .cart-item-desc {
+      font-family:'Montserrat',sans-serif;
+      font-size:13px;
+      color:#6b5a45;
+      margin-bottom:8px;
+    }
+    .cart-item-price {
+      font-family:'Montserrat',sans-serif;
+      font-weight:600;
+      color:var(--brand-brown);
+    }
+    .cart-item-quantity {
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin-top:10px;
+    }
+    .cart-quantity-btn {
+      width:30px;
+      height:30px;
+      border-radius:50%;
+      border:2px solid var(--brand-brown);
+      background:transparent;
+      color:var(--brand-brown);
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:600;
+      transition:all 0.3s ease;
+    }
+    .cart-quantity-btn:hover {
+      background:var(--brand-brown);
+      color:#fff;
+    }
+    .cart-quantity-display {
+      min-width:30px;
+      text-align:center;
+      font-family:'Montserrat',sans-serif;
+      font-weight:600;
+      color:var(--text-brown);
+    }
+    .cart-item-remove {
+      background:transparent;
+      border:none;
+      color:#dc3545;
+      cursor:pointer;
+      font-family:'Montserrat',sans-serif;
+      font-size:12px;
+      padding:5px 10px;
+      border-radius:5px;
+      transition:all 0.3s ease;
+    }
+    .cart-item-remove:hover {
+      background:#dc3545;
+      color:#fff;
+    }
+    .cart-summary {
+      margin-top:30px;
+      padding-top:20px;
+      border-top:2px solid var(--brand-cream);
+    }
+    .cart-total {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:20px;
+      font-family:'Montserrat',sans-serif;
+      font-size:18px;
+      font-weight:600;
+      color:var(--text-brown);
+    }
+    .cart-checkout {
+      width:100%;
+      padding:15px;
+      background:var(--brand-brown);
+      color:#fff;
+      border:none;
+      border-radius:8px;
+      font-family:'Montserrat',sans-serif;
+      font-size:16px;
+      cursor:pointer;
+      transition:all 0.3s ease;
+      text-transform:uppercase;
+      letter-spacing:1px;
+      font-weight:600;
+      margin-bottom:10px
+    }
+    .cart-checkout:hover {
+      background:#8a735a;
+      transform:scale(1.02);
+    }
+    .cart-continue {
+      display:block;
+      text-align:center;
+      margin-top:15px;
+      color:var(--brand-brown);
+      text-decoration:none;
+      font-family:'Montserrat',sans-serif;
+      font-size:14px;
+    }
+    .cart-continue:hover {
+      text-decoration:underline;
+    }
+  </style>
+
+  <script>
+    // Initialize handlers after DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+      // Initialize search data
+      initializeSearchData();
+
+      const searchModal = document.getElementById('searchModal');
+      if (searchModal) {
+        searchModal.addEventListener('click', function(e) {
+          if (e.target === this) {
+            closeSearch();
+          }
+        });
+      }
+
+      const accountModal = document.getElementById('accountModal');
+      if (accountModal) {
+        accountModal.addEventListener('click', function(e) {
+          if (e.target === this) {
+            closeAccount();
+          }
+        });
+      }
+
+      const cartModal = document.getElementById('cartModal');
+      if (cartModal) {
+        cartModal.addEventListener('click', function(e) {
+          if (e.target === this) {
+            closeCart();
+          }
+        });
+      }
+
+      updateCartDisplay();
+    });
+
+    // Escape key handler
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        const searchModal = document.getElementById('searchModal');
+        if (searchModal && searchModal.classList.contains('active')) {
+          closeSearch();
+        }
+        const accountModal = document.getElementById('accountModal');
+        if (accountModal && accountModal.classList.contains('active')) {
+          closeAccount();
+        }
+        const cartModal = document.getElementById('cartModal');
+        if (cartModal && cartModal.classList.contains('active')) {
+          closeCart();
+        }
+      }
+    });
+  </script>
+
+  <!-- ACCOUNT MODAL -->
+  <div class="account-modal" id="accountModal">
+    <div class="account-content">
+      <button class="account-close" onclick="closeAccount()">×</button>
+      <h2 class="account-title">My Account</h2>
+      
+      <div class="account-tabs">
+        <button class="account-tab active" onclick="switchAccountTab('login')">Login</button>
+        <button class="account-tab" onclick="switchAccountTab('register')">Register</button>
+      </div>
+      
+      <form class="account-form active" id="loginForm" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-input" placeholder="Enter your password" required>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember me</label>
+        </div>
+        <button type="submit" class="form-submit">Login</button>
+      </form>
+      
+      <form class="account-form" id="registerForm" onsubmit="handleRegister(event)">
+        <div class="form-group">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-input" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-input" placeholder="Create a password" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Confirm Password</label>
+          <input type="password" class="form-input" placeholder="Confirm your password" required>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" id="terms" required>
+          <label for="terms">I agree to the Terms & Conditions</label>
+        </div>
+        <button type="submit" class="form-submit">Create Account</button>
+      </form>
+      
+      <div class="account-links">
+        <a href="javascript:void(0)" onclick="showAccountLinks()">Forgot Password?</a>
+        <a href="javascript:void(0)" onclick="showAccountLinks()">Need Help?</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CART MODAL -->
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-content">
+      <button class="cart-close" onclick="closeCart()">×</button>
+      <h2 class="cart-title">Shopping Cart</h2>
+      
+      <div id="cartItems">
+        <div class="cart-empty">
+          <p>Your cart is empty</p>
+          <p>Add some beautiful SUKBIT bags to get started!</p>
+        </div>
+      </div>
+      
+      <div class="cart-summary" id="cartSummary" style="display:none;">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cartTotal">₱0</span>
+        </div>
+        <button class="cart-checkout" onclick="proceedToCheckout()">Proceed to Checkout</button>
+        <a href="javascript:void(0)" class="cart-continue" onclick="closeCart()">Continue Shopping</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
